@@ -31,7 +31,7 @@ There are usually multiple implementations to choose from the putting an algorit
 - See if you can reduce the execution times even further by trying out different compiler flags (optimization flags).
 - Create a table and figures that illustrate the measured data and study them. What effects can you observe?
 - How stable are the measurements when running the experiments multiple times?
-- Enter the shortest execution times for 1 and 8 threads for each code to the performance comparison sheet linked on Discord.
+- Enter the shortest execution times for 1 and 8 threads measured on the LCC2 cluster for each code to the performance comparison sheet linked on Discord.
 
 ## General Notes
 
