@@ -29,7 +29,7 @@ function calc_mandelbrot(image):
             iteration = iteration + 1
 
         norm_iteration = mapped iteration to pixel range [0, 255]
-        image[x_pixel][y_pixel] = norm_iteration
+        image[y_pixel][x_pixel] = norm_iteration
 ```
 
 ### Tasks
