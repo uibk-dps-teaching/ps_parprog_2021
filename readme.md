@@ -25,11 +25,12 @@ associated with a given date are to be discussed on that day, i.e., solutions
 for that assignment have to be handed in via OLAT by 17:00 on the previous day
 (Mondays).
 
-| Date       | Assignment | Topics                                                     |
-|------------|------------|------------------------------------------------------------|
-| 2021-03-09 | -          | Administrative matters, introduction to LCC2               |
-| 2021-03-16 | [1](01)    | Speedup, Amhdal's law, measurements                        |
-| 2021-03-23 | [2](02)    | Sequential performance, cache effects, pthread parallelism |
+| Date       | Assignment | Topics                                                      |
+|------------|------------|-------------------------------------------------------------|
+| 2021-03-09 | -          | Administrative matters, introduction to LCC2                |
+| 2021-03-16 | [1](01)    | Speedup, Amhdal's law, measurements                         |
+| 2021-03-23 | [2](02)    | Sequential performance, cache effects, pthread parallelism  |
+| 2021-04-13 | [3](03)    | OpenMP parallelism, time measurements, performance analysis |
 
 ## General Information
 
