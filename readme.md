@@ -31,6 +31,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 | 2021-03-16 | [1](01)    | Speedup, Amhdal's law, measurements                         |
 | 2021-03-23 | [2](02)    | Sequential performance, cache effects, pthread parallelism  |
 | 2021-04-13 | [3](03)    | OpenMP parallelism, time measurements, performance analysis |
+| 2021-04-20 | [4](04)    | OpenMP affinity, flush, and task parallelism                |
 
 ## General Information
 
