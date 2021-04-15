@@ -39,6 +39,7 @@ In this exercise, you will improve your implementation of merge sort.
 - Provide both a sequential and a parallel version of the recursive implementation.
 - Explain the OpenMP constructs you used for parallelization.
 - How does the performance of the recursive version compare to the iterative version, both sequential and parallel?
+- Enter the wall clock time of the sequential version, and the parallel version for 1 and 8 threads for n=100,000,000 on LCC2 to the comparison spreadsheet linked on Discord. 
 
 ## General Notes
 
