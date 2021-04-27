@@ -33,6 +33,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 | 2021-04-13 | [3](03)    | OpenMP parallelism, time measurements, performance analysis |
 | 2021-04-20 | [4](04)    | OpenMP affinity, flush, and task parallelism                |
 | 2021-04-27 | [5](05)    | OpenMP task parallelism and heat stencil application        |
+| 2021-05-04 | [6](06)    | More OpenMP applications (prefix sum and N-Queens problem)  |
 
 ## General Information
 
