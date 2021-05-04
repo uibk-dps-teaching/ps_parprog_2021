@@ -11,11 +11,12 @@ regarding the grading of exercises.**
 ## Topics
 
 Generally, topics discussed here include
- - parallel programming concepts
- - shared memory parallelization using OpenMP
- - performance-oriented programming
- - proper experiment orchestration and benchmarking
- - parallel programming tools
+
+- parallel programming concepts
+- shared memory parallelization using OpenMP
+- performance-oriented programming
+- proper experiment orchestration and benchmarking
+- parallel programming tools
 
 ## Schedule
 
@@ -26,7 +27,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 (Mondays).
 
 | Date       | Assignment | Topics                                                      |
-|------------|------------|-------------------------------------------------------------|
+| ---------- | ---------- | ----------------------------------------------------------- |
 | 2021-03-09 | -          | Administrative matters, introduction to LCC2                |
 | 2021-03-16 | [1](01)    | Speedup, Amhdal's law, measurements                         |
 | 2021-03-23 | [2](02)    | Sequential performance, cache effects, pthread parallelism  |
@@ -34,6 +35,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 | 2021-04-20 | [4](04)    | OpenMP affinity, flush, and task parallelism                |
 | 2021-04-27 | [5](05)    | OpenMP task parallelism and heat stencil application        |
 | 2021-05-04 | [6](06)    | More OpenMP applications (prefix sum and N-Queens problem)  |
+| 2021-05-11 | [7](07)    | Vectorization with and without OpenMp                       |
 
 ## General Information
 
@@ -60,8 +62,7 @@ The hostname of LCC2 is `lcc2.uibk.ac.at`.
 
 All programming exercises are conducted in C or C++.
 
-Your code should always compile without warnings, when passing the flags `-Wall
--Wextra -Werror -std=gnu11`. Error handling is your discretion, but wherever you
+Your code should always compile without warnings, when passing the flags `-Wall -Wextra -Werror -std=gnu11`. Error handling is your discretion, but wherever you
 do or do not include error handling you need to be able to justify it.
 
 Make sure your code is properly formatted using either your IDE/Text editor of
