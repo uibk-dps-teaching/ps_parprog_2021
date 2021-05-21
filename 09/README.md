@@ -8,30 +8,29 @@
 Consider the following individual code snippets, and analyze them regarding dependencies. 
 
 
-````
-for (int i=0; i < n-1; i++) {
+````c
+for (int i = 0; i < n-1; ++i) {
     x[i] = (y[i] + x[i+1]) / 7;
 }
 ````
 
-````
-for (int i=0; i < n; i++) {
-    a = (x[i] + y[i]) / (i+1);
+````c
+for (int i = 0; i < n; ++i) {
+    a = (x[i] + y[i]) / (i + 1);
     z[i] = a;
 }
 
 f = sqrt(a + k);
-
 ````
 
-````
-for (int i=0; i < n; i++) {
+````c
+for (int i = 0; i < n; ++i) {
    x[i] = y[i] * 2 + b * i;
 }
 
 
-for (int i=0; i < n; i++) {
-   y[i] = x[i]  + a / (i+1);
+for (int i = 0; i < n; ++i) {
+   y[i] = x[i] + a / (i + 1);
 }
 ````
 
@@ -48,35 +47,34 @@ Regarding each snippet
 
 In this exercise we try to parallelize loops which have data dependencies.
 Look at the following individual code snippets.
-a)
-````
 
+a)
+````c
 double factor = 1;
 
-for (int i=0; i < n; i++) {
+for (int i = 0; i < n; ++i) {
     x[i] = factor * y[i];
     factor = factor / 2;
 }
 ````
+
 b)
-````
-for (int i = 1; i<n; i++) {
+````c
+for (int i = 1; i < n; ++i) {
     x[i] = (x[i] + y[i-1]) / 2;
     y[i] = y[i] + z[i] * 3;
 }
-
 ````
 c)
 
-````
+````c
 x[0] = x[0] + 5 * y[0];
-for (int i = 1; i<n; i++) {
+for (int i = 1; i < n; ++i) {
     x[i] = x[i] + 5 * y[i];
-    if ( twice ) {
+    if (twice) {
         x[i-1] = 2 * x[i-1]
     }
 }
-
 ````
 
 ### Tasks
@@ -90,10 +88,10 @@ for (int i = 1; i<n; i++) {
 
 ### Description
 
-````
+````c
 for (int i = 0; i < 4; ++i) {
     for (int j = 1; j < 4; ++j) {
-        a[i + 2][j - 1] = b * a[i][j] + 4;
+        a[i+2][j-1] = b * a[i][j] + 4;
     }
 }
 ````
