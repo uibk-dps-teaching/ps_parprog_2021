@@ -38,6 +38,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 | 2021-05-11 | [7](07)    | Vectorization with and without OpenMP                       |
 | 2021-05-18 | [8](08)    | OpenMP correctness, auto-vectorization, dependence analysis |
 | 2021-05-25 | [9](09)    | Dependencies, Dependencies, Dependencies                    |
+| 2021-06-01 | [10](10)   | Profiling and optimizing a real application                 |
 
 ## General Information
 
