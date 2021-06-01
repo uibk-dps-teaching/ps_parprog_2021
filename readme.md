@@ -39,6 +39,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 | 2021-05-18 | [8](08)    | OpenMP correctness, auto-vectorization, dependence analysis |
 | 2021-05-25 | [9](09)    | Dependencies, Dependencies, Dependencies                    |
 | 2021-06-01 | [10](10)   | Profiling and optimizing a real application                 |
+| 2021-06-08 | [11](11)   | Scalar architectures and optimizations                      |
 
 ## General Information
 
