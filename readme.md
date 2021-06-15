@@ -41,6 +41,7 @@ for that assignment have to be handed in via OLAT by 17:00 on the previous day
 | 2021-06-01 | [10](10)   | Profiling and optimizing a real application                 |
 | 2021-06-08 | [11](11)   | Scalar architectures and optimizations                      |
 | 2021-06-15 | [12](12)   | N-Body simulation                                           |
+| 2021-06-22 | [13](13)   | Linear algebra                                              |
 
 ## General Information
 
